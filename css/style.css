@@ -37,16 +37,18 @@ header{
   background-color: lightblue;
 }
 
-.nav-top{
-  height: 75px;
-  background-color: blue;
+header nav:first-of-type{
+  background-color: #f4f9fd;
+}
+
+header nav:last-of-type{
+  background-color: #ffffff;
 }
 
 .nav-top .nav-top-left{
   width: 50%;
   height: 75px;
   line-height: 75px;
-  background-color: pink;
 }
 
 .nav-top-left .language{
@@ -72,8 +74,40 @@ header{
 
 .nav-top .nav-top-right{
   width: 50%;
-  height: 100%;
-  background-color: violet;
+  height: 75px;
+  line-height: 75px;
+  text-align: right;
+}
+
+.nav-top-right .search i,a{
+  padding-left: 10px;
+}
+
+.nav-top-right i{
+  width: 20px;
+  margin-right: 20px;
+  color: #00a4bd;
+}
+
+.nav-top-right a:first-of-type{
+  color: #fe775a;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+  background-color: white;
+  padding: 8px 5px;
+  margin-right: 20px;
+}
+
+.nav-top-right a:last-of-type{
+  color: white;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+  background-color: #fe775a;
+  padding: 8px 5px;
+}
+
+header hr{
+  2px solid #33475b;
 }
 
 .nav-bottom{
@@ -83,8 +117,12 @@ header{
 
 .nav-bottom .nav-bottom-left{
   width: 25%;
-  height: 100%;
-  background-color: brown;
+  height: 75px;
+  line-height: 75px;
+}
+
+.nav-bottom-left img{
+  padding-top: 20px;
 }
 
 .nav-bottom .nav-bottom-right{
