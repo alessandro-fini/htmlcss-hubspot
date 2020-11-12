@@ -6,11 +6,28 @@
 
 body{
   background-color: grey;
+  font-family: 'Roboto', sans-serif;
+  color: #33475b;
+}
+
+a{
+  text-decoration: none;
+  color: #33475b;
 }
 
 .container{
   width: 80%;
   margin: auto;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
 }
 
 /* header */
@@ -25,9 +42,55 @@ header{
   background-color: blue;
 }
 
+.nav-top .nav-top-left{
+  width: 50%;
+  height: 75px;
+  line-height: 75px;
+  background-color: pink;
+}
+
+.nav-top-left .language{
+  width: 28%;
+}
+
+.nav-top-left .language i,span{
+  padding-right: 5px;
+}
+
+.nav-top-left .language i:nth-of-type(1n+2){
+  border-right: 2px solid #33475b;
+  width: 32px;
+}
+
+.nav-top-left .contact{
+  width: 72%;
+}
+
+.contact a{
+  padding-left: 20px;
+}
+
+.nav-top .nav-top-right{
+  width: 50%;
+  height: 100%;
+  background-color: violet;
+}
+
 .nav-bottom{
   height: 75px;
   background-color: green;
+}
+
+.nav-bottom .nav-bottom-left{
+  width: 25%;
+  height: 100%;
+  background-color: brown;
+}
+
+.nav-bottom .nav-bottom-right{
+  width: 75%;
+  height: 100%;
+  background-color: yellow;
 }
 
 /* /header */
