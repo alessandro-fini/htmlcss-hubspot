@@ -7,3 +7,45 @@
 body{
   background-color: grey;
 }
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+/* header */
+
+header{
+  height: 1000px;
+  background-color: lightblue;
+}
+
+.nav-top{
+  height: 75px;
+  background-color: blue;
+}
+
+.nav-bottom{
+  height: 75px;
+  background-color: green;
+}
+
+/* /header */
+
+/* main */
+
+main{
+  height: 1000px;
+  background-color: orange;
+}
+
+/* /main */
+
+/* footer */
+
+footer{
+  height: 600px;
+  background-color: purple;
+}
+
+/* /footer */
