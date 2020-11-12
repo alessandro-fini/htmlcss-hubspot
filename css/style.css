@@ -193,21 +193,29 @@ section{
   border: 1px solid black;
 }
 
-section .powerful{
+section .powerful .first-row{
+  width: 100%;
+  height: 350px;
   text-align: center;
 }
 
-.powerful img{
+.powerful .first-row img{
   width: 20%;
   margin-top: 50px;
 }
 
-.powerful p{
+.powerful .first-row p{
   width: 83%;
   margin: auto;
   padding: 30px 0;
   line-height: 1.6;
   font-weight: 550;
+}
+
+section .second-row{
+  width: 100%;
+  height: 350px;
+  background-color: white;
 }
 
 /* /main */
