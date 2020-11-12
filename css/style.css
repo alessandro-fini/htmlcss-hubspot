@@ -46,12 +46,20 @@ header{
   position: relative;
 }
 
-header nav:first-of-type{
+header nav:last-of-type{
+  background-color: #ffffff;
+}
+
+.nav-top{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
   background-color: #f4f9fd;
 }
 
-header nav:last-of-type{
-  background-color: #ffffff;
+.nav-bottom{
+  margin-top: 75px;
 }
 
 .nav-top .nav-top-left{
