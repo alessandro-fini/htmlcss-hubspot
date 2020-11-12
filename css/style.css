@@ -110,11 +110,6 @@ header hr{
   2px solid #33475b;
 }
 
-.nav-bottom{
-  height: 75px;
-  background-color: green;
-}
-
 .nav-bottom .nav-bottom-left{
   width: 25%;
   height: 75px;
@@ -127,8 +122,15 @@ header hr{
 
 .nav-bottom .nav-bottom-right{
   width: 75%;
-  height: 100%;
-  background-color: yellow;
+  height: 75px;
+  line-height: 75px;
+  text-align: right;
+}
+
+.nav-bottom-right li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 10px;
 }
 
 /* /header */
