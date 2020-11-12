@@ -183,8 +183,31 @@ header hr{
 /* main */
 
 main{
-  height: 1000px;
+  /* height: 1000px; */
   background-color: orange;
+}
+
+section{
+  height: 700px;
+  background-color: #f4f9fd;
+  border: 1px solid black;
+}
+
+section .powerful{
+  text-align: center;
+}
+
+.powerful img{
+  width: 20%;
+  margin-top: 50px;
+}
+
+.powerful p{
+  width: 83%;
+  margin: auto;
+  padding: 30px 0;
+  line-height: 1.6;
+  font-weight: 550;
 }
 
 /* /main */
