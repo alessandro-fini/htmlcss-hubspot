@@ -318,7 +318,9 @@ section .hub .marketing, .sales, .service{
 }
 
 .hub p{
+  height: 100px;
   margin-top: 40px;
+  line-height: 1.6;
 }
 
 .hub hr{
