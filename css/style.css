@@ -296,13 +296,11 @@ section .second-row{
 }
 
 section .hub{
-  /* height: 100%; */
   padding-top: 50px;
 }
 
-section .hub .marketing{
+section .hub .marketing, .sales, .service{
   width: 30%;
-  /* height: 100%; */
   background-color: white;
   box-shadow: 0 3px 8px rgba(0,0,0,0.3);
   border-radius: 5px;
@@ -310,54 +308,41 @@ section .hub .marketing{
   text-align: center;
 }
 
-.hub .marketing img{
+.hub .sales{
+  margin: 0 5%;
+}
+
+.hub img{
   height: 100px;
   margin-bottom: 20px;
 }
 
-.hub .marketing p{
+.hub p{
   margin-top: 40px;
 }
 
-.hub .marketing hr{
+.hub hr{
   margin-top: 80px;
   border: 1px solid gray;
 }
 
-.hub .marketing h3{
+.hub h3{
   margin: 40px 0;
   text-transform: uppercase;
 }
 
-.hub .marketing ul{
+.hub ul{
   margin-bottom: 50px;
   text-align: left;
 }
 
-.hub .marketing li{
+.hub li{
   margin-bottom: 5px;
 }
 
-.hub .marketing li i{
+.hub li i{
   margin-right: 10px;
   color: #fe775a;
-}
-
-section .hub .sales{
-  width: 30%;
-  /* height: 100%; */
-  background-color: white;
-  margin: 0 5%;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
-  border-radius: 5px;
-}
-
-section .hub .service{
-  width: 30%;
-  height: 100%;
-  background-color: white;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
-  border-radius: 5px;
 }
 
 /* /main */
