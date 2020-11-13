@@ -6,7 +6,8 @@
 
 body{
   background-color: grey;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   color: #33475b;
 }
 
@@ -134,7 +135,7 @@ header hr{
 }
 
 .nav-bottom-left img{
-  padding-top: 20px;
+  vertical-align: middle;
 }
 
 .nav-bottom .nav-bottom-right{
@@ -154,8 +155,9 @@ header hr{
   height: 680px;
   background-image: url('../img/jumbotron.png');
   background-repeat: no-repeat;
-  background-position: -25% 100%;
+  background-position: 100% 100%;
   background-color: #fff4ef;
+  box-shadow: inset 0 3px 8px rgba(0,0,0,0.1);
 }
 
 .img-fix{
@@ -174,16 +176,16 @@ header hr{
 }
 
 .title h1{
-  font-size: 50px;
-  width: 50%;
+  font-size: 40px;
+  width: 40%;
 }
 
 .title p{
-  width: 50%;
+  width: 40%;
   padding: 40px 0;
-  line-height: 1.6;
+  line-height: 1.8;
   font-size: 13px;
-  font-weight: 550;
+  /* font-weight: 550; */
 }
 
 /* /header */
@@ -196,14 +198,14 @@ main{
 }
 
 section{
-  height: 700px;
+  height: 900px;
   background-color: #f4f9fd;
   border: 1px solid black;
 }
 
 section .powerful .first-row{
   width: 100%;
-  height: 350px;
+  height: 450px;
   text-align: center;
 }
 
@@ -222,8 +224,78 @@ section .powerful .first-row{
 
 section .second-row{
   width: 100%;
-  height: 350px;
+  height: 400px;
   background-color: white;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.second-row .second-row-left{
+  width: 25%;
+  height: 100%;
+  position: relative;
+}
+
+.second-row-left .learn-more{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.learn-more .learn-more-img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.learn-more .learn-more-link{
+  width: 100%;
+}
+
+.second-row .second-row-right{
+  width: 75%;
+  height: 100%;
+  position: relative;
+}
+
+.second-row-right .free{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.second-row-right .free p{
+  width: 70%;
+  margin: 20px 0;
+  line-height: 1.8;
+}
+
+.second-row-right .free h3{
+  width: 30%;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.second-row-right .free .line{
+  width: 60%;
+  display: inline-block;
+}
+
+.line hr{
+  border: 1px solid grey;
+  margin-bottom: 4px;
+}
+
+.second-row-right .free li{
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.second-row-right .free li i{
+  padding-right: 10px;
+  color: #fe775a;
 }
 
 /* /main */
