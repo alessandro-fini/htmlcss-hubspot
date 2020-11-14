@@ -40,7 +40,7 @@ li{
   border: 1px solid #fe775a;
   border-radius: 5px;
   background-color: #fe775a;
-  padding: 15px 30px;
+  padding: 15px 25px;
   font-size: 13px;
   font-weight: 550;
 }
@@ -229,7 +229,7 @@ section .second-row{
 }
 
 .second-row .second-row-left{
-  width: 25%;
+  width: 30%;
   height: 100%;
   position: relative;
 }
@@ -251,7 +251,7 @@ section .second-row{
 }
 
 .second-row .second-row-right{
-  width: 75%;
+  width: 70%;
   height: 100%;
   position: relative;
 }
@@ -280,7 +280,7 @@ section .second-row{
 }
 
 .line hr{
-  border: 1px solid grey;
+  border: 2px solid grey;
   margin-bottom: 4px;
 }
 
@@ -296,7 +296,7 @@ section .second-row{
 }
 
 section .hub{
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 section .hub .marketing, .sales, .service{
@@ -325,7 +325,7 @@ section .hub .marketing, .sales, .service{
 
 .hub hr{
   margin-top: 80px;
-  border: 1px solid gray;
+  border: 2px solid gray;
 }
 
 .hub h3{
@@ -347,13 +347,187 @@ section .hub .marketing, .sales, .service{
   color: #fe775a;
 }
 
+section:nth-child(3n+3){
+  background-image: linear-gradient(to right, #00a7bb, #00b5ad);
+}
+
+section .learn{
+  padding: 50px 0;
+  text-align: center;
+  color: white;
+}
+
+.learn h2{
+  font-size: 25px;
+}
+
+.learn p{
+  margin: 30px 0;
+  line-height: 1.6;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.learn .boxes{
+  width: 25%;
+  height: 170px;
+}
+
+.learn .border-btm{
+  border-bottom: 1px solid white;
+}
+
+.learn .border-right{
+  border-right: 1px solid white;
+}
+
+.learn .boxes img{
+  padding-top: 20px;
+}
+
+.learn .boxes h3{
+  font-size: 40px;
+  padding: 10px 0;
+}
+
+.learn .boxes h3::after{
+  content: '+';
+  font-size: 25px;
+  font-weight: normal;
+  padding-left: 5px;
+}
+
+section:nth-child(4n+4){
+  background-color: white;
+}
+
+section .sponsor{
+  padding: 50px 0;
+}
+
+.sponsor .sponsor-top .counter{
+  width: 20%;
+  margin-left: 90px;
+}
+
+.sponsor-top .counter h2{
+  font-size: 50px;
+  padding-bottom: 40px;
+}
+
+.sponsor-top .counter p{
+  line-height: 1.6;
+}
+
+.sponsor-top .brands{
+  width: 60%;
+  float: right;
+}
+
+.brands img{
+  width: 22%;
+  vertical-align: middle;
+  text-align: right;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.sponsor-btm .start{
+  width: 40%;
+  margin-top: 150px;
+}
+
+.start h2{
+  font-size: 26px;
+}
+
+.start p{
+  margin: 40px 0;
+  line-height: 1.6;
+  font-size: 13px;
+}
+
+.start p:nth-last-of-type(2n+1){
+  font-size: 11px;
+}
+
+.sponsor-btm .woman{
+  float: right;
+}
+
+.woman img{
+  height: 400px;
+  margin-top: 40px;
+}
 /* /main */
 
 /* footer */
 
 footer{
-  /* height: 600px;
-  background-color: purple; */
+  background-color: #32495b;
+  color: white;
 }
 
+footer a{
+  color: white;
+}
+
+.footer-top .column{
+  width: calc(25% - 20px);
+  margin-right: 20px;
+  padding-top: 50px;
+}
+
+.footer-top .column:nth-last-of-type(4n+1){
+  margin: 0;
+}
+
+.footer-top .column li{
+  font-size: 13px;
+  margin: 20px 0;
+}
+
+#support{
+  color: #33475b;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 5px;
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+.column li a i{
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+footer .footer-middle{
+  padding-top: 50px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.footer-middle li{
+  display: inline-block;
+}
+
+footer .footer-btm{
+  margin-top: 50px;
+}
+
+.footer-btm .footer-btm-left{
+  width: 50%;
+  height: 200px;
+}
+
+.footer-btm .footer-btm-right{
+  width: 50%;
+  height: 200px;
+  text-align: right;
+}
+
+.footer-btm-right li{
+  display: inline-block;
+  margin-left: 20px;
+}
 /* /footer */
