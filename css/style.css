@@ -77,8 +77,9 @@ header nav:last-of-type{
   width: 28%;
 }
 
-.nav-top-left .language i,span{
-  padding-right: 5px;
+.nav-top-left .language li{
+  display: inline-block;
+  margin-right: 5px;
 }
 
 .nav-top-left .language i:nth-of-type(1n+2){
