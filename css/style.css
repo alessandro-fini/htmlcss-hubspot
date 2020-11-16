@@ -74,7 +74,7 @@ header nav:last-of-type{
 }
 
 .nav-top-left .language{
-  width: 28%;
+  width: 40%;
 }
 
 .nav-top-left .language li{
@@ -82,17 +82,14 @@ header nav:last-of-type{
   margin-right: 5px;
 }
 
-.nav-top-left .language i:nth-of-type(1n+2){
+.language li span{
+  width: 2px;
   border-right: 2px solid #33475b;
-  width: 32px;
+  padding-left: 15px;
 }
 
 .nav-top-left .contact{
-  width: 72%;
-}
-
-.contact a{
-  padding-left: 20px;
+  width: 60%;
 }
 
 .nav-top .nav-top-right{
@@ -530,5 +527,71 @@ footer .footer-btm{
 .footer-btm-right li{
   display: inline-block;
   margin-left: 20px;
+}
+
+footer .chat{
+  /* width: 200px;
+  height: 200px; */
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.chat .message{
+  width: 200px;
+  background-color: white;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.chat .message .avatar{
+  position: absolute;
+  top: -20px;
+}
+
+.chat .message .avatar img{
+  width: 60px;
+  margin-left: 70px;
+  top: -24px;
+}
+
+.chat .message .chat-text p{
+  padding-top: 20px;
+  color: #425B76;
+  line-height: 1.6;
+}
+
+.chat-text i{
+  margin-left: 170px;
+  font-size: 20px;
+  color: #33475b;
+}
+
+.chat-text i:hover{
+  cursor: pointer;
+}
+
+.chat .ico{
+  width: 100%;
+  height: 100px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.ico i{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #425B76;
+  box-shadow: 1px 1px  1px #425B76;
+}
+
+.ico i:hover{
+  cursor: pointer;
 }
 /* /footer */
